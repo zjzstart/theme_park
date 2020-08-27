@@ -1,0 +1,44 @@
+{
+  "id": "1721329",
+  "name": "myItem",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "629337",
+      "name": "声音",
+      "font_class": "shengyin",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "629356",
+      "name": "刷新",
+      "font_class": "shuaxin",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
+      "icon_id": "629357",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "630083",
+      "name": "下拉",
+      "font_class": "xiala",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    },
+    {
+      "icon_id": "4767011",
+      "name": "right",
+      "font_class": "right",
+      "unicode": "e7eb",
+      "unicode_decimal": 59371
+    }
+  ]
+}

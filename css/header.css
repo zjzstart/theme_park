@@ -1,0 +1,36 @@
+
+header > #left{
+	width: 56px;
+	height: 100%;
+	/* background-color: #FF4500; */
+	float: left;
+	background-image: url(../img/h3.jpg);
+	background-size: 112px;
+	box-shadow: 2px 2px 20px rgba(255,255,255,.7);
+}
+header > ul{
+	width: 1172px;
+	list-style: none;
+	height: 56px;
+	display: flex;
+	justify-content: center;
+}
+header > ul li{
+	float: left;
+	line-height: 40px;
+	position: relative;
+	top: 8px;
+	
+}
+header > ul li a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	padding: 0 20px;
+}
+header > ul li a:hover{
+	color: black;
+	background-color: white;
+}
+

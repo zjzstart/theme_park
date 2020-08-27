@@ -1,0 +1,163 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Courier;
+	list-style: none;
+}
+body{
+	background-color: black;
+}
+header{
+	width: 1228px;
+	height: 100px;
+	/* background-color: white; */
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding: 22px 0;
+}
+main{
+	width: 1228px;
+	height: 460px;
+	/* background-color: yellow; */
+	margin: 0 auto;
+	position: relative;
+}
+main > #select{
+	height: 100%;
+	width: 233px;
+	background-color: #979e9d;
+	overflow: hidden;
+	flex-grow: 1;
+}
+
+main > #select > #ulLeft{
+	width: 100%;
+	margin: 26px 0;
+	list-style: none;
+	/* overflow: hidden; */
+}
+main > #select > #ulLeft li{
+	line-height: 51px;
+}
+main > #select > #ulLeft li a{
+	display: block;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-size: 18px;
+	color: white;
+	height: 51px;
+	padding: 0 30px;
+}
+main > #select > #ulLeft li a::after{
+	content: '\e7eb';
+	font-family: 'iconfont';
+	font-size: 10px;
+	float: right;
+}
+main > #select > #ulLeft li a:hover{
+	/* color: aqua; */
+	background-color: #000;
+}
+
+
+main > #select2{
+	overflow: hidden;
+	width: 990px;
+	height: 460px;
+	left: 235px;
+	bottom: 460px;
+	position: relative;
+}
+main > #select2 > #ulRight{
+	display: flex;
+	position: absolute;
+}
+
+main > #select3{
+	position: absolute;
+	width: 990px;
+	height: 460px;
+	/*background-color: white;*/
+	left: 235px;
+	top: 0px;
+	visibility: hidden;
+	z-index: 50;
+	
+}
+
+.ball{
+	width:71px;
+	height:71px;
+	/* background: red; */
+	border-radius: 50%;
+	position:absolute;
+	top:0;
+	left:0;
+	/* opacity: 0.5; */
+	z-index: 999;
+	background-image: url(../img/sharingan.gif);
+	background-position: center;
+}
+
+.walkman{
+	margin: 20px auto;
+	background-color: white;
+	height: 100px;
+	position: relative;
+	overflow: hidden;
+	width: 1223px;
+}
+.walkman > img{
+	height: 100px;
+	position: absolute;
+}
+
+#underMain{
+	/* height: 490px; */
+	width: 1223px;
+	margin: 20px auto;
+	display: flex;
+	flex-direction: row-reverse;
+	
+}
+#underMain > #underMain-right{
+	height: 100%;
+	width: 1118px;
+	/* background-color: b; */
+	display: flex;
+	box-sizing: border-box;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-right: 50px;
+}
+#underMain > #underMain-right > .intro{
+	width: 220px;
+	height: 280px;
+	/* background-color: white; */
+	margin-bottom: 15px;
+	/* box-shadow: 2px 2px 50px rgba(255,255,255,.7); */
+}
+
+footer p{
+	text-align: center;
+	line-height: 30px;
+	color: white;
+	font-size: 18px;
+}
+footer p a{
+	color: white;
+	text-decoration: none;
+}
+
+.rotationChart2{
+	width: 450px;
+	height: 100px;
+	/* background-color: white; */
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.rotationChart2 > ul {
+	display: flex;
+	position: absolute;
+}
